@@ -135,3 +135,67 @@ img {
     font-size:2.5rem;
     font-weigth:600;
 }
+.header .header__nav ul li a{
+    color:#ffffff;
+    font-size:2rem;
+}
+.header .header__nav ul li:hover a{
+    color:blue;
+}
+.header .header__nav ul li:hover{
+    scale:1.1;
+    transition:.5 ease;
+}
+.header .header__nav ul{
+    display:flex;
+    align-items:center;
+    gap:2.5rem;
+}
+.header .header__wrapper{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+/* banner */
+/* .container .banner__wrapper{
+    display:flex;
+    align-items:
+}
+.banner__text h1{
+    color:#ffa700;
+    font-size:7rem;
+    font-weight:800;
+    line-height:1;
+    margin-top:10rem;
+}
+.banner__text p {
+    font-size:16;
+    font-weigth:500;
+    max-width:300px;
+    margin-top:3rem;
+}
+.banner__text a{
+    
+} */
+.banner{
+    padding:5rem 0;
+    background:#ffffff;
+  }
+  .banner .banner__text{
+    max-width:35rem;
+    text-align:justify;
+  }
+  .banner .banner__text h1{
+    font-size:8rem;
+    color:#ffa700;
+    font-weight:800;
+    line-height:1;
+  }
+  .banner .banner__text p{
+    margin:5rem 0;
+  }
+  .banner .banner__wrapper{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+  }
