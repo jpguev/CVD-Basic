@@ -202,7 +202,7 @@ img {
     }
     .header__nav.open{
         right:0;
-        transition:.5 ease;
+        transition:.5s ease;
     }
     .header__nav ul{
         display:flex;
