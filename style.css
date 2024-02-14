@@ -1283,6 +1283,9 @@ font-weight:600;
     grid-template-columns: 2.5fr 1.5fr;
     grid-gap:5rem;
   }
+  .updts__button ul li{
+    display:flex;
+  }
 
 .updts .updts__right h2{
     color:var(--primary);
@@ -1309,6 +1312,10 @@ font-weight:600;
 }
 .updts__tags{
     margin-top:8.5rem;
+    color:var(--primary);
+    font-weight:600;
+    margin-bottom:4rem;
+    font-size: 2.2rem;
 }
 .btn{
     display:inline-block;
@@ -1321,6 +1328,11 @@ font-weight:600;
 .btn.bg--light:hover{
     background:var(--dark);
     border:1px solid var(--light);
+    color:var(--light);
     scale:1.1;
     transition:.5s ease;
+}
+.button{
+    padding-right:5rem;
+    margin:.8rem;
 }
