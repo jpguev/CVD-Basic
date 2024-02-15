@@ -1410,6 +1410,7 @@ font-weight:600;
   color: var(--light);
   margin-bottom: 10rem;
   max-width: 100%;
+  font-size:1.8rem;
 }
 .cntc__left ul li {
   display: flex;
@@ -1421,13 +1422,15 @@ font-weight:600;
 .cntc__info li h6 {
   color: var(--light);
   margin-left: 3rem;
+  font-size:2rem;
 }
 .cntc__info i {
   color: var(--primary);
+  font-size:3rem;
 }
 .cntc__left .cntc__icn {
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
   font-size: 2.5rem;
 }
 .cntc__left .cntc__icn li a {
